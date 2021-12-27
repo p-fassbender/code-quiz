@@ -12,7 +12,7 @@ var question1 = {
     correct: "c"
 };
 var question2 = {
-    question: "The condition in an if/else statement is encloded with _____.",
+    question: "The condition in an if/else statement is enclosed with _____.",
     A: "quotes",
     B: "curly brackets",
     C: "parenthesis",
