@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* #quiz-container {
+    display: flex;
+    justify-content: center;
+} */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 1.25rem;
+}
+
+button {
+    outline: none;
+    border: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    border-radius: 12px;
+    position: relative;
+    top: -3px;
+    box-shadow: 0 3px gray;
+    padding: 12px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 5px;
+}
+
+form {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+  
+form input {
+    outline: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 1.5rem;
+    border: 2px solid gray;
+    border-radius: 12px;
+}
+  
+form .form-group {
+    margin: 10px 6px 10px 0;
+    flex: 1;
+}
+
+#correctOrWrongDiv {
+    border-top: 3px solid gray;
+}
